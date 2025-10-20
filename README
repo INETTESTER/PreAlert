@@ -1,2 +1,4 @@
 git fetch origin  # ดึงข้อมูลล่าสุดจาก remote repository
 git reset --hard origin/main  # รีเซ็ตให้เหมือนกับเวอร์ชันล่าสุดใน GitHub
+npm install -g xk6-html-reporter
+npm install -g k6-html-reporter

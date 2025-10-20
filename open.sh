@@ -4,8 +4,8 @@
 ##########################################################################
 ##########################################################################
 ##########################################################################
-                     API="template" 
-                     google_sheet="https://docs.google.com/spreadsheets/d/1H7UgGtAy3JKvulLqGXVm5zeNq1FdNKonMxxBETQtjXQ/edit?gid=1610289956#gid=1610289956" 
+                     API="login" 
+                     google_sheet="https://docs.google.com/spreadsheets/d/1YtP5NktvSBop-84nH40oIkFW-x_WWHQ4y3PCC9S4UVM/edit?gid=962920420#gid=962920420" 
                      id="1"                 #เปลี่ยน id ทุกครั้งที่ยิง
                      user="1";            #จำนวนผู้ใช้งาน
                      duration="1";         #วินาที
@@ -64,7 +64,6 @@ filenamex="$API-$user-$id"
 if [ "$status" = "normal" ]; then
     # รัน main/main.js และรอจนกว่าจะเสร็จ
     k6 run --env id="$id" --env cid="$cid" --env projectname="$API" --env scenariox="$scenario" --env user="$user" --env durationx="$duration" --summary-export=report/"$folder_report"/"$filenamex".json main/main.js
-
     # รอจนกว่าการรันเสร็จสิ้น
     wait
 

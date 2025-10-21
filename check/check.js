@@ -14,7 +14,7 @@ export function error_check(res) {
         // 3xx
         '300 Multiple Choices': (r) => r.status === 300,
         '301 Moved Permanently': (r) => r.status === 301,
-        '302 Found': (r) => r.status === 302,
+        '302': (r) => r.status === 302,
         '303 See Other': (r) => r.status === 303,
         '304 Not Modified': (r) => r.status === 304,
         '305 Use Proxy': (r) => r.status === 305,

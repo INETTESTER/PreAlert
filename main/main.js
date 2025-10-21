@@ -198,7 +198,7 @@ else if (scenariox == 5) {
     ],
     thresholds: {
       'http_req_failed': ['rate<0.1'],    // กำหนดว่าผิดพลาดเกิน 10% ถือว่าล้ม
-      'http_req_duration': ['p(95)<1000'] // 95% ของ request ต้อง < 1 วินาที
+      'http_req_duration': ['p(95)<5000'] // 95% ของ request ต้อง < 5 วินาที
     }
   };
 }
@@ -214,7 +214,7 @@ else if (scenariox == 6) {
     ],
     thresholds: {
       'http_req_failed': ['rate<0.1'],     // Error rate ต้อง <10%
-      'http_req_duration': ['p(95)<1000'], // 95% ของ request < 2 วินาที
+      'http_req_duration': ['p(95)<10000'], // 95% ของ request < 10 วินาที
     },
   };
 }

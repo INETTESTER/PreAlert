@@ -3,7 +3,8 @@ import { cookie_env, url_env } from './env.js';
 
 // กำหนด base URL ของ environment
 const baseUrl = url_env;
-const securePort = ':8443';
+//const securePort = ':8443';
+const securePort = '';
 
 // Cookie เดียวกัน
 const commonParams = {

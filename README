@@ -2,3 +2,25 @@ git fetch origin  # ดึงข้อมูลล่าสุดจาก remot
 git reset --hard origin/main  # รีเซ็ตให้เหมือนกับเวอร์ชันล่าสุดใน GitHub
 npm install -g xk6-html-reporter
 npm install -g k6-html-reporter
+
+Role Admin1
+(ใช ้ ในการ อนุมัติ เอกสาร ครั้งที่ 1 )
+User : Customs-1
+Pass : Customs1@2024
+----------------------------------------------
+Role Admin2
+(ใช ้ ในการ อนุมัติ เอกสาร ครั้งที่ 2 )
+User : Customs-2
+Pass : Customs2@2024
+----------------------------------------------
+Role Admin3
+(ใช ้ ในการ กำหนดสีความเสี่ยงและสถานะของ X-ray )
+(ใช ้ ในการ กำหนดเลือกติดอุปกรณ์ติดตาม E-Seal )
+User : Customs-3
+Password : Customs3@2024
+----------------------------------------------
+Role Shipping
+(ใช ้ ในการ สร ้ างเอกสาร )
+User : Shipping1
+Pass : Password#2023
+----------------------------------------------
